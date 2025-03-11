@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b1,.b2,.b3{
+            border: solid black;
+            width: 300px;
+            height: 100px;
+            margin: 10px;
+        }
+            /*Learn Compund Selector on YT */
+        .b2.act{   /* act is a class associated with only b2 class. We cannot make compound selector with id or any htm tags, it is only associated with classes*/
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Compound Selector</h1>
+
+    <div class="b1">
+        block-1
+    </div>
+
+    <div class="b2 act">
+        block-2
+    </div>
+
+    <div class="b3">
+        block-3
+    </div>
+</body>
+</html>

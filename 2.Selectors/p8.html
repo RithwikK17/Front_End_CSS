@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container, .container-1{
+            height: 80vh;
+            width: 100%;
+            background-color: grey;
+        }
+        /* Decendant */
+        .container .card{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        /* Child (>) */
+        .container-1 > .card-1{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Combinators</h1>
+        <h3>Decendant (space)</h3>
+    <!-- It selects all child and grandchild -->
+        <section class="container">
+            <div class="card">
+                <h5>Child</h5>
+                <div class="card">
+                    <h5>Grand Child</h5>
+                    <div class="card">
+                        Great Grand Child
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <h3>Child (>) Selector</h3>
+        <!-- Selects only direct child of the parent block -->
+        <section class="container-1">
+            <div class="card-1">
+                <h5>Child</h5>
+                <div class="card-1">
+                    <h5>Grand Child</h5>
+                    <div class="card-1">
+                        Great Grand Child
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+</body>
+</html>

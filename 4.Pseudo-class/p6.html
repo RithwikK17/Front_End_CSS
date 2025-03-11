@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:default{
+            outline: 2px solid orange;
+        }
+        input:checked{
+            outline: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>:checked (radio,checkbox), :default</h1>
+    <form action="">
+        <label for="">Gender</label>
+        <br><br>
+        <label for="">
+            Male <input type="radio" name="gender" id="gender" value="male">
+        </label>
+        <label for="">
+            Female <input type="radio" name="gender" id="gender" value="female" checked>
+        </label>
+        <label for="">
+            Others <input type="radio" name="gender" id="gender" value="others">
+        </label>
+    </form>
+    <hr>
+    <form action="">
+        <label for="">Choose Technology</label><br><br>
+        HTML <input type="checkbox" name="technology" id="technology" value="html"><br>
+        CSS <input type="checkbox" name="technology" id="technology" value="css" checked><br>
+        JavaScript <input type="checkbox" name="technology" id="technology" value="js"><br>
+    </form>
+</body>
+</html>

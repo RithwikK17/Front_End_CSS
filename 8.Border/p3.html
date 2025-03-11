@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container div{
+                width: 200px;
+                height: 200px;
+                border-width: 20px;
+                border-color: orangered;
+                margin: 20px;
+                padding: 10px;
+                background-color: gray;
+        }
+        .b1{
+            border-block-start: solid;
+            border-block-end: solid;
+            writing-mode: horizontal-tb;
+        }
+        .b2{
+            border-block-start: dotted;
+            border-block-end: dotted;
+            writing-mode: vertical-lr;
+        }
+        .b3{
+            border-block-start: dashed;
+            border-block-end: dashed;
+            writing-mode: vertical-rl;
+        }
+        .b4{
+            border-block-start: ridge;
+            border-block-end: ridge;
+            writing-mode: horizontal-tb;
+            direction: rtl;
+        }
+    </style>
+</head>
+<body>
+    <h1>border-block</h1>
+
+    <div class="container">
+        <div class="b1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quos numquam asperiores nemo culpa reprehenderit odit suscipit dolore, reiciendis impedit vel enim harum eaque porro voluptatum repellendus soluta omnis! Esse.
+        </div>
+        <div class="b2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quos numquam asperiores nemo culpa reprehenderit odit suscipit dolore, reiciendis impedit vel enim harum eaque porro voluptatum repellendus soluta omnis! Esse.
+        </div>
+        <div class="b3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quos numquam asperiores nemo culpa reprehenderit odit suscipit dolore, reiciendis impedit vel enim harum eaque porro voluptatum repellendus soluta omnis! Esse.
+        </div>
+        <div class="b4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quos numquam asperiores nemo culpa reprehenderit odit suscipit dolore, reiciendis impedit vel enim harum eaque porro voluptatum repellendus soluta omnis! Esse.
+        </div>
+    </div>
+</body>
+</html>

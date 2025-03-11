@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child{
+            color: purple;
+            font-weight: bold;
+        }
+        p:last-child{
+            color: red;
+            font-weight: bold;
+        }
+        p:nth-child(4){
+            color: green;
+            font-weight: bold;
+        }
+        table,
+        td,
+        tr{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        tr:first-child{
+            background-color: yellow;
+            color: red;
+        }
+        tr:last-child{
+            background-color: purple;
+            color: black;
+        }
+        tr:nth-child(3){
+            background-color: orangered;
+            color: black;
+        }
+        li:first-child{
+            color: green;
+            font-weight: bold;
+        }
+        li:last-child{
+            color: blue;
+            font-weight: bold;
+        }
+        li:nth-child(3){
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>:first-child, :last-child, :nth-child(position)</h1>
+    <div>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </div>
+    <hr>
+    <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+    <hr>
+    <table>
+        <tr>
+            <td>name</td>
+            <td>email</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>john@gmail.com</td>
+        </tr>
+        <tr>
+            <td>mary</td>
+            <td>mary12@email.com</td>
+        </tr>
+        <tr>
+            <td>sam</td>
+            <td>sam22@email.com</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>john@gmail.com</td>
+        </tr>
+        <tr>
+            <td>mary</td>
+            <td>mary12@email.com</td>
+        </tr>
+        <tr>
+            <td>sam</td>
+            <td>sam22@email.com</td>
+        </tr>
+    </table>
+</body>
+</html>

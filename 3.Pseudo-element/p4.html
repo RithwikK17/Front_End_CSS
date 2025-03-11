@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video::cue {
+            font-size: 2rem;
+            color: yellow;
+        }
+        video::cue(u){
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1> ::cue </h1>
+    <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" width="600" height="400" controls>
+        <track default kind="captions" src="./p4.vtt" srclang="en">
+        Sorry!! your browser doesn't support
+    </video>
+</body>
+</html>
