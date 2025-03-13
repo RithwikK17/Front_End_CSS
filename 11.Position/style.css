@@ -60,5 +60,6 @@ header{
 }
 
 .menu-items li.dropdown:hover .drop-menu{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
