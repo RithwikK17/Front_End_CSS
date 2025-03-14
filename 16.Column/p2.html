@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            height: 100px;
+            columns: 3;
+        }
+        .b1 p{
+            column-rule-style: dotted;
+            column-rule-color: red;
+            column-rule-width: 2px;
+            column-fill: auto;
+        }
+        .b2 p{
+            column-rule: 2px dashed blue;
+            column-fill: balance;
+        }
+        .container{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>column-fill, colums, column-rule</h1>
+    <section class="container">
+        <div class="b1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis at inventore aperiam dignissimos sequi ducimus vero, sapiente qui, totam quisquam similique aliquam provident omnis tempora. Neque nostrum officia aut commodi.
+            Beatae, laboriosam? Voluptates, debitis omnis? Mollitia accusamus unde laboriosam, consequatur, suscipit cum incidunt libero deleniti beatae quas praesentium soluta, maxime earum! Culpa nemo voluptas magnam eos praesentium obcaecati expedita accusantium. lorem
+            </p>
+        </div>
+        <div class="b2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia error tenetur pariatur eos molestias quaerat expedita itaque eligendi, animi suscipit libero fuga iure explicabo, impedit repellendus rem esse, iusto quis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, mollitia! Corporis adipisci rerum quasi quidem labore ullam pariatur nemo repellat. Saepe debitis blanditiis ea atque, tenetur reprehenderit error placeat molestias.</p>
+        </div>
+    </section>
+</body>
+</html>
